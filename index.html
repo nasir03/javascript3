@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Formulir</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh;  margin: 10;">
+
+    <div id="form-container" style="background-color: aqua; font-size: medium; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border-radius: 10px; box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1); padding: 70px; text-align: center;">
+        <h2>Formulir</h2>
+
+        <form id="myForm" align="left">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama"><br>
+            <label for="pekerjaan">Pekerjaan:</label><br>
+            <input type="text" id="pekerjaan" name="pekerjaan"><br>
+            <label for="hobi">Hobi:</label><br>
+            <input type="text" id="hobi" name="hobi"><br><br>
+            <button type="button" onclick="tampilkanData()">Submit</button>
+        </form>
+
+        <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
